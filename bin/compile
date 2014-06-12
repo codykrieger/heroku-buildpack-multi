@@ -3,6 +3,7 @@
 set -e
 
 echo "invoked with args: $@"
+echo "current directory: $(pwd)"
 
 function indent() {
   c='s/^/       /'
