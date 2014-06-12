@@ -11,7 +11,7 @@ ls -al $1
 echo "$2:"
 ls -al $2
 echo "$3:"
-ls -al $3
+ls -al $3 || :
 
 function indent() {
   c='s/^/       /'
