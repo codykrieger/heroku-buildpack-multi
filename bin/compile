@@ -2,6 +2,8 @@
 
 set -e
 
+echo "invoked with args: $@"
+
 function indent() {
   c='s/^/       /'
   case $(uname) in
